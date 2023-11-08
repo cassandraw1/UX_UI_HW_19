@@ -1,0 +1,114 @@
+body {
+  background-color: #F7F7FF;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.logo {
+  width: 25%;
+  padding-right: 15px;
+  width: 65px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.navigation {
+  padding: 1%;
+  background-color: #131112;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #131112;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mySkills {
+  outline: 1px solid red;
+  padding: 10px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexChild {
+  width: 33%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #F7F7FF;
+  background-color: #617073
+}
+
+.myWork {
+  outline: 1px solid red;
+  padding: 10px;
+}
+
+.projectA {
+  padding: 5px;
+  grid-area: left;
+  align-items: left;
+}
+
+.projectB {
+  padding: 5px;
+  grid-area: center;
+  text-align: right;
+}
+
+.projectC {
+  padding: 5px;
+  grid-area: right;
+}
+
+@media only screen and (max-width: 600){
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #categoryGrid {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: lfr;
+    grid-template-areas: 
+    "projectA"
+    "projectB"
+    "projectC"
+  }
+}
