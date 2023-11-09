@@ -29,29 +29,29 @@
         Analysis and Management, seeking to pivot into a dynamic career in design. Leveraging my deep understanding of
         guest preferences and insights, I aim to help create memorable experiences that delight and engage customers,
         while contributing to the success of an innovative organizations.</p>
-      <button type="button">Download Resume</button>
+      <button id="myBtn">Let's Connect</button>
     </div>
   </section>
 
   <!--  My UX Skills section coded using CSS flex -->
   <section class="mySkills">
-    <h1> My UX Skills</h1>
+    <h1> My Skills</h1>
     <div class="flexContainer">
       <div class="flexChild">
         <h3>STORYTELLING WITH DATA</h3>
-        <img src="ICON">
+        <img class="skillIcon" src="Images/Icon_Data.png">
         <p> I excel in data analysis, consumer research, and market trend analysis, with a talent for transforming data
           insights into actionable stories.</p>
       </div>
       <div class="flexChild">
         <h3>USER-CENTERED DESIGN</h3>
-        <img src="ICON">
+        <img class="skillIcon" src="Images/Icon_UserCenteredDesign.png">
         <p> Harmonizing user insights with a deep appreciation for brand marketing, I specialize in translating ideas
           into user-centric designs that form the foundation of successful digital products.</p>
       </div>
       <div class="flexChild">
         <h3>WIRE-FRAMING & PROTOTYPING</h3>
-        <img src="ICON">
+        <img class="skillIcon" src="Images/Icon_Wireframing.png">
         <p> I take pride in my ability to translate complex concepts into clear, structured layouts, and enjoy breathing
           life into wire-frames by creating dynamic, user-friendly prototypes.</p>
       </div>
@@ -62,38 +62,45 @@
   <section class="myWork">
     <h1> My Work </h1>
     <div class="workGrid">
-      <div class="projectA">
-        <div>
-          <img src="project image">
-        </div>
-        <div>
-          <h4> Project A </h4>
-          <p> Info and description regarding the project in question</p>
-          <button type="button">View Details</button>
-        </div>
-      </div>
       <div class="projectB">
         <div>
-          <img src="project image">
+          <img class="prototypeImage" src="Images/Prototype_SPA.png">
         </div>
         <div>
-          <h4> Project A </h4>
-          <p> Info and description regarding the project in question</p>
+          <h4> Navigation and Site redesign for The Saint Patricks Association </h4>
+          <p>The Saint Patrick’s Association (SPA) faced challenges with their website, including accessibility,
+            navigation, and user engagement. In response, our team executed a comprehensive redesign, incorporating
+            captivating visuals, intuitive navigation, and essential design principles. I played a key role, focusing on
+            a competitive analysis, low-fidelity prototypes, and usability testing. Our user persona, Rosemary, guided
+            our decisions. After thorough user testing, we improved navigation and clarified content. The redesigned
+            website aligns with the organization's goals and adds significant value. In the future, we advise the
+            organization to integrate Facebook Events, expand content during busy seasons, and use analytics for
+            continuous improvements. The organization plans to implement our designs, underscoring their confidence in
+            our work. This project highlights the ongoing nature of design and our enthusiasm for future opportunities.
+          </p>
           <button type="button">View Details</button>
         </div>
       </div>
       <div class="projectC">
         <div>
-          <img src="project image">
+          <img class="prototypeImage" src="Images/Prototype_DOL.png">
         </div>
         <div>
-          <h4> Project A </h4>
-          <p> Info and description regarding the project in question</p>
+          <h4> Redesigning the Department of Labor DOL Website Navigation </h4>
+          <p> The core focus of the project was to redesign the Department of Labor's website to address user challenges
+            in efficiently finding the resources they need. These challenges included a crowded and elongated menu that
+            made it cumbersome for users to access items located below the fold. My contributions in defining user
+            flows, conducting card sorting exercises, and participating in sitemap development were instrumental in
+            improving user navigation and content accessibility. We prioritized the menu navigation, recognizing it as
+            the primary point of interaction for users. Through card sorting and usability testing we were able to
+            simplfy the navigation menu and tailor it to the different audiences that would most frequently visit the
+            page. </p>
           <button type="button">View Details</button>
         </div>
       </div>
+      <h3> View All Projects </h3>
     </div>
-    <h3> View All Projects </h3>
+
   </section>
 
 
@@ -106,5 +113,18 @@
     </ul>
   </footer>
 </body>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="Images/Email_PopUp.png">
+  </div>
+
+</div>
+
+<script src="js/index.js"></script>
 
 </html>

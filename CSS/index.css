@@ -22,6 +22,12 @@ img {
   width: 100%;
 }
 
+.skillIcon {
+  height:40px;
+  width: 40px;
+
+}
+
 .navigation {
   padding: 1%;
   background-color: #131112;
@@ -53,8 +59,11 @@ h1 {
   text-align: center;
 }
 
+h3 {
+  text-align: center;
+}
+
 .mySkills {
-  outline: 1px solid red;
   padding: 10px;
 }
 
@@ -69,29 +78,48 @@ h1 {
   padding: 10px;
   text-align: center;
   color: #F7F7FF;
-  background-color: #617073
+  background-color: #131112
 }
 
 .myWork {
-  outline: 1px solid red;
   padding: 10px;
 }
 
+.workGrid{
+  margin: 10px;
+  padding: 10px;
+}
+
+.prototypeImage{
+  height: 50%;
+  width: 50%;
+  
+}
+
 .projectA {
-  padding: 5px;
+  padding: 30px;
+  margin: 10px;
   grid-area: left;
   align-items: left;
+  background-color: #617073 ;
+  outline: 10px solid #F7F7FF;
 }
 
 .projectB {
-  padding: 5px;
+  padding: 30px;
+  margin: 10px;
   grid-area: center;
   text-align: right;
+  background-color: #617073 ;
+  outline: 10px solid #F7F7FF;
 }
 
 .projectC {
-  padding: 5px;
+  padding: 30px;
+  margin: 10px;
   grid-area: right;
+  background-color: #617073 ;
+  outline: 10px solid #F7F7FF;
 }
 
 @media only screen and (max-width: 600){
@@ -111,4 +139,47 @@ h1 {
     "projectB"
     "projectC"
   }
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #131112;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #131112;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #131112;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #131112;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button{
+  background-color: #DFFF00;
 }
