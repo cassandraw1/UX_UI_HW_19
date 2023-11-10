@@ -4,6 +4,12 @@
 <head>
   <link rel="stylesheet" href="css/index.css">
   <title>Cassandra Whitley</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -21,42 +27,49 @@
     </nav>
   </header>
 
-
-  <section class="heroImg">
-    <div class="content">
-      <img src="../Images/IMG_2330 (1).JPG">
-      <p> Passionate advocate for exceptional guest experiences with a proven background in Marketing, Research,
-        Analysis and Management, seeking to pivot into a dynamic career in design. Leveraging my deep understanding of
-        guest preferences and insights, I aim to help create memorable experiences that delight and engage customers,
-        while contributing to the success of an innovative organizations.</p>
-      <button id="myBtn">Let's Connect</button>
+    <div class="row align-items-md-stretch">
+    <div class="col-md-6 p-3">
+      <img class="h-100 p-2 img-fluid" src="Images/IMG_2330 (1).JPG">
     </div>
-  </section>
+    <div class="col-md-6 p-3">
+      <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+        <p> Passionate advocate for exceptional guest experiences with a proven background in Marketing, Research,
+          Analysis and Management, seeking to pivot into a dynamic career in design. Leveraging my deep understanding of
+          guest preferences and insights, I aim to help create memorable experiences that delight and engage customers,
+          while contributing to the success of an innovative organizations.</p>
+        <button id="myBtn">Let's Connect</button>
+      </div>
+    </div>
+  </div>
 
   <!--  My UX Skills section coded using CSS flex -->
-  <section class="mySkills">
-    <h1> My Skills</h1>
-    <div class="flexContainer">
-      <div class="flexChild">
-        <h3>STORYTELLING WITH DATA</h3>
-        <img class="skillIcon" src="Images/Icon_Data.png">
-        <p> I excel in data analysis, consumer research, and market trend analysis, with a talent for transforming data
-          insights into actionable stories.</p>
+  <div>
+    <section class="mySkills">
+      <h1> My Skills</h1>
+      <div class="flexContainer">
+        <div class="flexChild">
+          <h3>STORYTELLING WITH DATA</h3>
+          <img class="skillIcon" src="Images/Icon_Data.png">
+          <p> I excel in data analysis, consumer research, and market trend analysis, with a talent for transforming
+            data
+            insights into actionable stories.</p>
+        </div>
+        <div class="flexChild">
+          <h3>USER-CENTERED DESIGN</h3>
+          <img class="skillIcon" src="Images/Icon_UserCenteredDesign.png">
+          <p> Harmonizing user insights with a deep appreciation for brand marketing, I specialize in translating ideas
+            into user-centric designs that form the foundation of successful digital products.</p>
+        </div>
+        <div class="flexChild">
+          <h3>WIRE-FRAMING & PROTOTYPING</h3>
+          <img class="skillIcon" src="Images/Icon_Wireframing.png">
+          <p> I take pride in my ability to translate complex concepts into clear, structured layouts, and enjoy
+            breathing
+            life into wire-frames by creating dynamic, user-friendly prototypes.</p>
+        </div>
       </div>
-      <div class="flexChild">
-        <h3>USER-CENTERED DESIGN</h3>
-        <img class="skillIcon" src="Images/Icon_UserCenteredDesign.png">
-        <p> Harmonizing user insights with a deep appreciation for brand marketing, I specialize in translating ideas
-          into user-centric designs that form the foundation of successful digital products.</p>
-      </div>
-      <div class="flexChild">
-        <h3>WIRE-FRAMING & PROTOTYPING</h3>
-        <img class="skillIcon" src="Images/Icon_Wireframing.png">
-        <p> I take pride in my ability to translate complex concepts into clear, structured layouts, and enjoy breathing
-          life into wire-frames by creating dynamic, user-friendly prototypes.</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <!-- My Work Section Constructed using CSS Grid -->
   <section class="myWork">
@@ -66,7 +79,7 @@
         <div>
           <img class="prototypeImage" src="Images/Prototype_SPA.png">
         </div>
-        <div>
+        <div class="projectCopy">
           <h4> Navigation and Site redesign for The Saint Patricks Association </h4>
           <p>The Saint Patrick’s Association (SPA) faced challenges with their website, including accessibility,
             navigation, and user engagement. In response, our team executed a comprehensive redesign, incorporating
@@ -78,14 +91,15 @@
             continuous improvements. The organization plans to implement our designs, underscoring their confidence in
             our work. This project highlights the ongoing nature of design and our enthusiasm for future opportunities.
           </p>
-          <a class="btn btn-primary" href="https://cassandraw1.github.io/UX_UI_HW_20/" role="button">Link</a>
+          <a href="#" class="btn btn-light btn-primary disabled" tabindex="-1" role="button" aria-disabled="true">View
+            Details</a>
         </div>
       </div>
       <div class="projectC">
         <div>
           <img class="prototypeImage" src="Images/Prototype_DOL.png">
         </div>
-        <div>
+        <div class="projectCopy">
           <h4> Redesigning the Department of Labor DOL Website Navigation </h4>
           <p> The core focus of the project was to redesign the Department of Labor's website to address user challenges
             in efficiently finding the resources they need. These challenges included a crowded and elongated menu that
@@ -95,7 +109,8 @@
             the primary point of interaction for users. Through card sorting and usability testing we were able to
             simplfy the navigation menu and tailor it to the different audiences that would most frequently visit the
             page. </p>
-          <button type="button"><a class="btn btn-primary" href="https://cassandraw1.github.io/UX_UI_HW_20/" role="button">Link</a></button>
+          <a href="https://cassandraw1.github.io/UX_UI_HW_20/" class="btn btn-light btn-primary" tabindex="-1"
+            role="button" aria-disabled="true">View Details</a>
         </div>
       </div>
       <h3> View All Projects </h3>

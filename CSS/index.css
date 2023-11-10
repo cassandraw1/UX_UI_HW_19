@@ -1,5 +1,6 @@
 body {
   background-color: #F7F7FF;
+  font-size: 20px;
 }
 
 .inline-block {
@@ -43,11 +44,15 @@ ul {
 .heroImg {
   height: 600px;
   padding: 25px;
+  margin: 50px;
 }
 
 .content {
-  width: 500px;
-  margin: 0 auto;
+  display: block;
+  width: 60%;
+  margin: 15px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .footer {
@@ -64,7 +69,9 @@ h3 {
 }
 
 .mySkills {
+  margin:30px;
   padding: 10px;
+  display: block;
 }
 
 .flexContainer {
@@ -122,6 +129,16 @@ h3 {
   outline: 10px solid #F7F7FF;
 }
 
+.projectCopy{
+  padding: 20px;
+  font-size: 20px;
+  color: #F7F7FF
+}
+
+.btn-primary{
+font-size: 15px;
+}
+
 @media only screen and (max-width: 600){
   .flexContainer {
     display: flex;
@@ -169,7 +186,7 @@ h3 {
 .close {
   color: #131112;
   float: right;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
 }
 
