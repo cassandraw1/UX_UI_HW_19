@@ -16,12 +16,7 @@ body {
   text-align: center;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
+
 
 .skillIcon {
   height:40px;
@@ -29,10 +24,6 @@ img {
 
 }
 
-.navigation {
-  padding: 1%;
-  background-color: #131112;
-}
 
 ul {
   list-style-type: none;
@@ -106,8 +97,8 @@ h3 {
 .projectA {
   padding: 30px;
   margin: 10px;
-  grid-area: left;
-  align-items: left;
+  grid-area: center;
+  align-items: center;
   background-color: #617073 ;
   outline: 10px solid #F7F7FF;
 }
@@ -116,7 +107,7 @@ h3 {
   padding: 30px;
   margin: 10px;
   grid-area: center;
-  text-align: right;
+  text-align: center;
   background-color: #617073 ;
   outline: 10px solid #F7F7FF;
 }
@@ -125,6 +116,7 @@ h3 {
   padding: 30px;
   margin: 10px;
   grid-area: right;
+  
   background-color: #617073 ;
   outline: 10px solid #F7F7FF;
 }
